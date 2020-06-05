@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/customSelect.css">
+	<link rel="stylesheet" href="./css/timer.css">
+	<link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+	<title>Foco Total</title>
+	<script src="./javascript/script.js"></script>
+
+
+
+
+</head>
+
+<body>
+	<audio id="end" src="./assets/end.mp3" hidden></audio>
+	<audio id="start" src="./assets/start.mp3" hidden></audio>
+
+	<div class="main-container" id="pageStart">
+		<div class="containerTimer">
+			<h1>Foco Total</h1>
+			<div class="horaDe">Hora de começar!</div>
+			<div class="timer">
+				<p>25:00</p>
+			</div>
+			<div class="options custom-select">
+				<select>
+					<option value="60">60 minutos</option>
+					<option value="45">45 minutos</option>
+					<option value="30">30 minutos</option>
+					<option selected value="25">25 minutos</option>
+					<option value="15">15 minutos</option>
+				</select>
+
+			</div>
+
+			<div onclick="timerStart(true)" class="buttonTimer" id="startTimer">
+				<p>Start</p>
+			</div>
+			<div onclick="timerStop(true)" class="buttonTimer" id="stopTimer">
+				<p>Stop</p>
+			</div>
+
+
+		</div>
+
+
+
+		<div class="content">
+			<h2 id="pomodoro">O que é a técnica Pomodoro?</h2>
+			<div class="text">
+				<p>
+					A técnica Pomodoro é um sistema de gerenciamento de tempo que incentiva as pessoas a trabalhar com o
+					tempo que elas têm - e não contra.Usando esse método, você divide sua jornada de trabalho em partes
+					de 25 minutos, separadas por intervalos de cinco minutos. Esses intervalos são chamados de
+					pomodoros. Após cerca de quatro pomodoros, você faz uma pausa mais longa de 15 a 20 minutos.
+				</p>
+
+				<p>
+					A idéia por trás da técnica é que o cronômetro instala um senso de urgência. Em vez de sentir que
+					você tem um tempo sem fim na jornada de trabalho para realizar as tarefas e, em seguida, desperdiçar
+					essas preciosas horas de trabalho em distrações, você sabe que só tem 25 minutos para progredir o
+					máximo possível em uma tarefa.
+				</p>
+				<p>
+					Além disso, as quebras forçadas ajudam a curar a sensação desgastada e desgastada que a maioria de
+					nós experimenta no final do dia. É impossível passar horas na frente do computador sem perceber,
+					pois esse temporizador lembra que você se levante e respire.
+				</p>
+			</div>
+
+			<h2>Por que ela funciona?</h2>
+			<div class="text">
+				<p>Às vezes, quando confrontados com uma grande tarefa ou uma série de tarefas, pode ser difícil começar
+					ou manter a motivação. Ao dividir o trabalho em intervalos curtos que são seguidos por intervalos
+					curtos, a tarefa se torna mais gerenciável, tornando-se uma questão de colocar um pé na frente do
+					outro.
+				</p>
+				<p>
+					O processo funciona para treinar seu cérebro a se concentrar e ajuda você a progredir, apesar das
+					inúmeras distrações existentes. Às vezes, pura força de vontade não é suficiente, mas a técnica
+					Pomodoro, junto com o <a href="#pageStart" class="textLink"><a href="#pageStart"
+							class="textLink">Foco Total timer</a></a>, o manterá responsável.
+				</p>
+			</div>
+			<h2>Como Realizar a técnica?</h2>
+			<div class="text">
+				<ol>
+					<li>Escolher e listar as tarefas a serem executadas;</li>
+					<li>Ajustar o cronômetro para o tempo desejado (geralmente 25 minutos);</li>
+					<li>Escolher a tarefa inicial;</li>
+					<li>Trabalhar na tarefa escolhida até que o alarme toque. Se alguma distração importante surgir,
+						anotá-la, pausar o timer, e voltar o foco para a tarefa;</li>
+					<li>Quando o alarme tocar, fazer uma pausa de acordo com o timer;</li>
+					<li>Será uma pausa curta (5 minutos), durante quatro descansos;</li>
+					<li>Depois do quarto descanso, você deve fazer uma pausa longa (30 minutos);</li>
+					<li>Depois recomeçar o timer quando a pausa longa acabar.</li>
+				</ol>
+			</div>
+
+			<h2>Como o <a href="#pageStart" class="textLink">Foco Total timer</a> funciona?</h2>
+			<div class="text">
+				<p>É muito simples utiliza-lô. Apenas selecione um tempo, e o timer irá começar. Você pode parar ele a
+					qualquer minuto, sem nenhum problema. No final do tempo tocará um som de sinos, para você saber que o
+					tempo acabou. Esse timer pode ser utilizado em conjunto com a técnica <a href="#pomodoro" class="textLink">Pomodoro</a>. 
+					O <a href="#pageStart" class="textLink">Foco Total timer</a> implementa as quatro marcações da
+					técnica Pomodoro, isso para você utilizar toda sua energia na sua tarefa atual.</p>
+			</div>
+
+			<h2>Outras dicas para manter o foco:</h2>
+			<div class="text">
+				<ul>
+					<li>Utileze em conjunto com a técnica Pomodoro o Método GTD;</li>
+					<li>Faça exercícios físicos;</li>
+					<li>Evite redes socias</li>
+					<li>Não culpe a si mesmo por perder o foco;</li>
+					<li>Tente tornar a tarfa mais interessante;</li>
+					<li>Ouça músicas instrumentais durante a sessão, ou, músicas em línguas que você não entende;</li>
+					<li>Não seja multitarefa. Foque apenas na sua tarefa atual, utilize o timer para evitar distrações.
+					</li>
+				</ul>
+			</div>
+
+			<h2>Livros relacionados:</h2>
+			<div class="text">
+				
+				<ul>
+					<li>A técnica Pomodoro - Francesco Cirillo;</li>
+					<li>O cérebro com foco e disciplin - Renato Alves</li>
+					<li>Vida Organizada - Thais Godinho</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			Criado por <a href="https://github.com/Pextre" target="_blank">Daniel Peixoto</a>
+		</footer>
+	</div>
+
+
+	<script>
+
+		timerStart();
+		timerStop();
+
+	</script>
+
+
+	<script src="./javascript/customSelect.js"></script>
+
+
+</body>
+
+</html>

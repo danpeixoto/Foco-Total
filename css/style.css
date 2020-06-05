@@ -1,0 +1,81 @@
+html {
+	background-color: #ffffff;
+	outline: 0;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+	min-width: 360px;
+	margin-top: 10%;
+	color: #eeeeee;
+
+}
+
+.main-container .content {
+	margin-top: 45%;
+	color: #000;
+	padding: 0 20px;
+	min-height: 800px;
+	width: 50%;
+}
+
+.main-container .content .text h2 {
+	color: #111;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 32px;
+	margin: 0 0 72px;
+	text-align: center;
+}
+
+.main-container .content .text p {
+	color: #292928;
+	font-size: 1.2em;
+	line-height: 24px;
+	margin: 0 0 24px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.main-container .content .text li {
+	color: #292928;
+	font: bold 1.3em;
+	margin-bottom: 20px;
+}
+
+.main-container .content .textLink{
+	text-decoration: none;
+	color: #292928;
+	font-weight: bolder;
+	transition: ease-in 0.4s ;
+}
+
+.main-container .content .textLink:hover{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #292928;
+}
+
+footer {
+	color: #000;
+	margin-top: 10px;
+}
+
+footer a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
