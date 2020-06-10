@@ -1,30 +1,30 @@
-.main-container .containerTimer {
+.mainContainer .containerTimer {
 	background-color: #b4b4b4;
 	padding: 10px;
 	border-radius: 5%;
 	border: 1.5px solid #ffffff;
+	margin-bottom: 45%;
 }
 
-.main-container .containerTimer h1 {
-
+.mainContainer .containerTimer h1 {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 4em;
 }
 
-.main-container .containerTimer .horaDe {
+.mainContainer .containerTimer .horaDe {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 3em;
 }
 
-.main-container .timer p {
+.mainContainer .timer p {
 	font-size: 10em;
 	text-align: center;
 	margin: 0 auto;
 }
 
-.main-container .buttonTimer {
+.mainContainer .buttonTimer {
 
 	font-size: 2.1em;
 	text-decoration: none;
@@ -40,24 +40,24 @@
 	display: table;
 }
 
-.main-container .buttonTimer p {
+.mainContainer .buttonTimer p {
 	text-align: center;
 	vertical-align: middle;
 	display: table-cell;
 }
 
-.main-container #startTimer {
+.mainContainer #startTimer {
 	background-color: rgb(80, 255, 86);
 }
 
-.main-container #startTimer:hover {
+.mainContainer #startTimer:hover {
 	background-color: #46a049;
 }
 
-.main-container #stopTimer {
+.mainContainer #stopTimer {
 	background-color: #fb4f42;
 }
 
-.main-container #stopTimer:hover {
+.mainContainer #stopTimer:hover {
 	background-color: #da190b;
 }
