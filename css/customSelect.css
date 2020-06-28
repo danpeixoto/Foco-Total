@@ -68,3 +68,18 @@
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+
+@media screen and (max-width: 650px) {
+
+	.custom-select,.select-selected,.select-items {
+		font-size: 0.9em;
+	}
+
+	.select-selected:after{
+		top:16px;
+	}
+
+	.select-selected.select-arrow-active:after{
+		top:9px;
+	}
+}

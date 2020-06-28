@@ -1,3 +1,6 @@
+
+// TODO: trocar som de inicio do timer a partir do primeiro descanso. Não da para ouvir
+
 let currentTimer;
 let active = false; // true quando o cronometro estiver ativo
 let interval = false; // true quando for intervalo

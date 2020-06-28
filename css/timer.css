@@ -4,6 +4,7 @@
 	border-radius: 5%;
 	border: 1.5px solid #ffffff;
 	margin-bottom: 45%;
+	margin-top: 10%;
 }
 
 .mainContainer .containerTimer h1 {
@@ -60,4 +61,22 @@
 
 .mainContainer #stopTimer:hover {
 	background-color: #da190b;
+}
+
+
+@media screen and (max-width: 650px) {
+
+	.mainContainer .containerTimer h1,
+	.mainContainer .buttonTimer,
+	.mainContainer .containerTimer .horaDe,
+	.mainContainer .timer p {
+		font-size: 1em;
+	}
+
+	.mainContainer .containerTimer h1,
+	.mainContainer .containerTimer .horaDe,
+	.mainContainer .timer p {
+		margin-bottom: 5px;
+	}
+
 }
