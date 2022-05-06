@@ -1,82 +1,78 @@
 .mainContainer .containerTimer {
-	background-color: #b4b4b4;
-	padding: 10px;
-	border-radius: 5%;
-	border: 1.5px solid #ffffff;
-	margin-bottom: 45%;
-	margin-top: 10%;
+  background-color: #b4b4b4;
+  padding: 10px;
+  border-radius: 5%;
+  border: 1.5px solid #ffffff;
+  margin-bottom: 45%;
+  margin-top: 10%;
 }
 
 .mainContainer .containerTimer h1 {
-	margin: 0 auto;
-	text-align: center;
-	font-size: 4em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4em;
 }
 
 .mainContainer .containerTimer .horaDe {
-	margin: 0 auto;
-	text-align: center;
-	font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
 }
 
 .mainContainer .timer p {
-	font-size: 10em;
-	text-align: center;
-	margin: 0 auto;
+  font-size: 10em;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .mainContainer .buttonTimer {
-
-	font-size: 2.1em;
-	text-decoration: none;
-	margin-top: 10px;
-	height: 50px;
-	min-width: 100%;
-	border: none;
-	border-radius: 5px 5px;
-	cursor: pointer;
-	outline: none;
-	color: #eeeeee;
-	transition: 0.6s;
-	display: table;
+  font-size: 2.1em;
+  text-decoration: none;
+  margin-top: 10px;
+  height: 50px;
+  min-width: 100%;
+  border: none;
+  border-radius: 5px 5px;
+  cursor: pointer;
+  outline: none;
+  color: #eeeeee;
+  transition: 0.6s;
+  display: table;
 }
 
 .mainContainer .buttonTimer p {
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .mainContainer #startTimer {
-	background-color: rgb(80, 255, 86);
+  background-color: rgb(80, 255, 86);
 }
 
 .mainContainer #startTimer:hover {
-	background-color: #46a049;
+  background-color: #46a049;
 }
 
 .mainContainer #stopTimer {
-	background-color: #fb4f42;
+  background-color: #fb4f42;
 }
 
 .mainContainer #stopTimer:hover {
-	background-color: #da190b;
+  background-color: #da190b;
 }
 
-
 @media screen and (max-width: 650px) {
+  .mainContainer .containerTimer h1,
+  .mainContainer .buttonTimer,
+  .mainContainer .containerTimer .horaDe,
+  .mainContainer .timer p {
+    font-size: 1em;
+  }
 
-	.mainContainer .containerTimer h1,
-	.mainContainer .buttonTimer,
-	.mainContainer .containerTimer .horaDe,
-	.mainContainer .timer p {
-		font-size: 1em;
-	}
-
-	.mainContainer .containerTimer h1,
-	.mainContainer .containerTimer .horaDe,
-	.mainContainer .timer p {
-		margin-bottom: 5px;
-	}
-
+  .mainContainer .containerTimer h1,
+  .mainContainer .containerTimer .horaDe,
+  .mainContainer .timer p {
+    margin-bottom: 5px;
+  }
 }
